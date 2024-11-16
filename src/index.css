@@ -1,0 +1,154 @@
+/* Home.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.logout-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.logout-button button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #ed3572;
+  color: white;
+  cursor: pointer;
+}
+.logout-button button:hover{
+  background-color: #ed5720;
+}
+
+.greeting {
+ font-size: 20px;
+ font-style: italic;
+ font-weight: lighter;
+}
+
+.main-heading {
+  font-size: 40px;
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+.podcast{
+  padding-left: 30px;
+}
+@media (max-width: 768px) {
+  .container1 {
+      width: 90%;
+      padding: 15px;
+  }
+
+  .link {
+      font-size: 1rem;
+  }
+
+  p {
+      font-size: 0.8rem;
+  }
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 50px auto; /* Centers the div */
+  background-color: white; /* Light background */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid black;
+  box-shadow: 2px 5px 5px  black;
+}
+
+.cont11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+
+audio {
+  width: 100%;
+  margin: 10px 0;
+  height: 40px;
+
+}
+
+p {
+  font-size: 0.9rem;
+color: black;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  
+  color: #0d1137;
+  margin-left: 10px;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: #500475;
+  font-weight: bold;
+
+}
+
+.text {
+  width: 100%;
+border: none;
+  border-radius: 5px;
+  padding: 10px;
+  
+  font-size: 0.9rem;
+  color:black;
+  resize: none;
+ background-color: white;
+ box-shadow: inset -2px -3px 4px  ;
+}
+
+.text::placeholder {
+  color: gray;
+}
+
+.title2{
+  color: blue; 
+  text-decoration:underline;
+  padding: 10px;
+}
+.title2:hover{
+  color: #ed3572;
+}
+
+.date{
+color: black;
+font-weight: bold;
+}
+h2{
+  color: black;
+}
